@@ -1,0 +1,34 @@
+{
+  "name": "everart-forge-mcp",
+  "version": "0.1.0",
+  "description": "Advanced EverArt MCP server for generating and converting both vector (SVG) and raster images with flexible storage options",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.5.0",
+    "everart": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "open": "^9.1.0",
+    "sharp": "^0.33.5",
+    "svgo": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "typescript": "^5.3.3"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/modelcontextprotocol/servers.git"
+  },
+  "attribution": {
+    "name": "EverArt MCP Server",
+    "repository": "https://github.com/modelcontextprotocol/servers/tree/main/src/everart",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2024 Anthropic, PBC"
+  }
+}
