@@ -1,5 +1,6 @@
 # EverArt Forge MCP for Cline
 
+[![smithery badge](https://smithery.ai/badge/@nickbaumann98/everart-forge-mcp)](https://smithery.ai/server/@nickbaumann98/everart-forge-mcp)
 ![EverArt Forge MCP](icon.svg)
 
 An advanced Model Context Protocol (MCP) server for [Cline](https://github.com/cline/cline) that integrates with EverArt's AI models to generate both vector and raster images. This server provides powerful image generation capabilities with flexible storage options and format conversion.
@@ -58,6 +59,15 @@ Once configured, you can use Cline to generate images with commands like:
 
 ## Installation
 
+### Installing via Smithery
+
+To install EverArt Forge for Cline automatically via [Smithery](https://smithery.ai/server/@nickbaumann98/everart-forge-mcp):
+
+```bash
+npx -y @smithery/cli install @nickbaumann98/everart-forge-mcp --client cline
+```
+
+### Manual Installation
 1. Clone the repository:
    ```bash
    git clone [repository-url]
